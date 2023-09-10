@@ -39,7 +39,7 @@ public class SpringDataJpaApplication {
     public static void main(String[] args) {
         SpringApplication.run(SpringDataJpaApplication.class, args);
         log.info(
-                "\n\n ============================ APPLICATION LAUNCHED ======================= \n\n");
+                "\n\n============================ APPLICATION LAUNCHED ======================= \n\n");
         TimeZone.setDefault(TimeZone.getTimeZone("Africa/Lagos"));
         System.out.println(LocalDateTime.now());
     }
